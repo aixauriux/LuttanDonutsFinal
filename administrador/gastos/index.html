@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="expenses">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Gastos
+                        </h1>
+                        <p>
+                            Control de egresos
+                        </p>
+                    </div>
+                    <a class="button" href="../registrar-gasto/index.html">
+                        Registrar gasto
+                    </a>
+                </header>
+                <div class="page__content">
+                    <section class="stats-grid stats-grid--three">
+                        <article class="stat-card">
+                            <p>
+                                Gastos del d&iacute;a
+                            </p>
+                            <strong>
+                                $380,000
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Gastos de la semana
+                            </p>
+                            <strong>
+                                $1,840,000
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Gastos del mes
+                            </p>
+                            <strong>
+                                $7,420,000
+                            </strong>
+                        </article>
+                    </section>
+                    <article class="panel">
+                        <form class="filters">
+                            <input placeholder="Buscar concepto..." type="search" />
+                            <input type="date" />
+                            <select>
+                                <option>
+                                    Todas las categor&iacute;as
+                                </option>
+                                <option>
+                                    Insumos
+                                </option>
+                                <option>
+                                    Servicios
+                                </option>
+                            </select>
+                            <button class="button">
+                                Filtrar
+                            </button>
+                        </form>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Fecha
+                                        </th>
+                                        <th>
+                                            Concepto
+                                        </th>
+                                        <th>
+                                            Categor&iacute;a
+                                        </th>
+                                        <th>
+                                            Valor
+                                        </th>
+                                        <th>
+                                            Responsable
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            15/08/2026
+                                        </td>
+                                        <td>
+                                            Harina y az&uacute;car
+                                        </td>
+                                        <td>
+                                            Insumos
+                                        </td>
+                                        <td>
+                                            $145,000
+                                        </td>
+                                        <td>
+                                            Diego Herrera
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            15/08/2026
+                                        </td>
+                                        <td>
+                                            Gas industrial
+                                        </td>
+                                        <td>
+                                            Servicios
+                                        </td>
+                                        <td>
+                                            $85,000
+                                        </td>
+                                        <td>
+                                            Aixa Sanchez
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            14/08/2026
+                                        </td>
+                                        <td>
+                                            N&oacute;mina semanal
+                                        </td>
+                                        <td>
+                                            N&oacute;mina
+                                        </td>
+                                        <td>
+                                            $900,000
+                                        </td>
+                                        <td>
+                                            Aixa Sanchez
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+      <meta charset="utf-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <title>
+            Luttan Donuts
+      </title>
+      <link href="estilos.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+            rel="stylesheet" />
+</head>
+
+<body>
+      <div class="app-shell admin-shell">
+            <aside class="sidebar">
+                  <header class="sidebar__brand">
+                        <img alt="" src="../../imagenes/luttan.jpeg" />
+                        <div>
+                              <strong>
+                                    Luttan
+                              </strong>
+                              <span>
+                                    Donuts
+                              </span>
+                        </div>
+                  </header>
+                  <a class="sidebar__user" href="../perfil/index.html">
+                        <span class="avatar">
+                              AS
+                        </span>
+                        <span>
+                              <strong>
+                                    Aixa Sanchez
+                              </strong>
+                              <small>
+                                    Administradora
+                              </small>
+                        </span>
+                  </a>
+                  <nav aria-label="Navegación de administración" class="sidebar__nav">
+                        <a href="../inicio/index.html">
+                              ⌂
+                              <span>
+                                    Inicio
+                              </span>
+                        </a>
+                        <a href="../ventas/index.html">
+                              ▣
+                              <span>
+                                    Ventas
+                              </span>
+                        </a>
+                        <a href="../inventario/index.html">
+                              □
+                              <span>
+                                    Inventario
+                              </span>
+                        </a>
+                        <a href="../productos/index.html">
+                              ◉
+                              <span>
+                                    Productos
+                              </span>
+                        </a>
+                        <a href="../clientes/index.html">
+                              ♙
+                              <span>
+                                    Clientes
+                              </span>
+                        </a>
+                        <a href="../empleados/index.html">
+                              ♟
+                              <span>
+                                    Empleados
+                              </span>
+                        </a>
+                        <a href="../gastos/index.html">
+                              $
+                              <span>
+                                    Gastos
+                              </span>
+                        </a>
+                        <a href="../caja/index.html">
+                              ▤
+                              <span>
+                                    Caja
+                              </span>
+                        </a>
+                        <a href="../reportes/index.html">
+                              ▥
+                              <span>
+                                    Reportes
+                              </span>
+                        </a>
+                  </nav>
+                  <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                        ⌑ Cerrar sesión
+                  </a>
+            </aside>
+            <main class="workspace">
+                  <section class="page admin-page" id="profile">
+                        <header class="topbar">
+                              <div>
+                                    <h1>
+                                          Mi Perfil
+                                    </h1>
+                                    <p>
+                                          Cuenta de administración
+                                    </p>
+                              </div>
+                              <a class="button button--soft" href="../inicio/index.html">
+                                    Volver
+                              </a>
+                        </header>
+                        <div class="page__content profile-grid">
+                              <article class="profile-card">
+                                    <span class="profile-card__avatar">
+                                          AS
+                                    </span>
+                                    <h2>
+                                          Aixa Sanchez
+                                    </h2>
+                                    <span class="pill pill--pink">
+                                          Administradora
+                                    </span>
+                              </article>
+                              <article class="panel">
+                                    <h2>
+                                          Información personal
+                                    </h2>
+                                    <form action="../perfil/index.html" class="form-stack">
+                                          <label class="field">
+                                                Nombre completo
+                                                <input value="Aixa Sanchez" />
+                                          </label>
+                                          <label class="field">
+                                                Correo electrónico
+                                                <input type="email" value="aixa@luttandonuts.com" />
+                                          </label>
+                                          <label class="field">
+                                                Teléfono
+                                                <input type="tel" value="300-555-0188" />
+                                          </label>
+                                          <button class="button">
+                                                Guardar cambios
+                                          </button>
+                                    </form><a class="button button--soft"
+                                          href="../cambiar-contrasena/index.html">Cambiar contraseña</a>
+                              </article>
+                        </div>
+                  </section>
+            </main>
+      </div>
+      <script defer="" src="../../funciones.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+LUTTAN DONUTS - REVISIÓN LOCAL
+
+Se conservaron las 34 páginas HTML y todos los archivos CSS originales para evitar alteraciones visuales.
+Se añadió funciones.js y se enlazó en las páginas.
+Funciones: filtros de búsqueda de tablas y productos, formularios guardados en localStorage, altas visibles en algunas tablas, activación/desactivación de productos, carrito y confirmación de pedido, contador del carrito, exportación CSV y cierre de sesión local.
+Se añadió un logo provisional porque el ZIP no contenía la imagen original. Sustituir imagenes/logo-provisional.svg por el logo real si se desea fidelidad visual.
+
+LIMITACIONES IMPORTANTES:
+- No existe conexión a MySQL ni backend. Los datos solo se guardan en el navegador actual.
+- El inicio de sesión valida campos pero NO autentica credenciales; no es seguro para producción.
+- La gestión de datos es básica: no hay edición completa, sincronización entre usuarios ni reportes contables reales.
+- No se ejecutaron pruebas de navegador ni se certifica ausencia de errores de consola.
+- Los CSS se mantuvieron intactos para conservar el diseño; no se ha realizado una simplificación visualmente verificada.
+- Algunas pantallas mantienen valores de demostración y no están vinculadas a todos los registros.

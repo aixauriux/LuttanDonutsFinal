@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell employee-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <div class="sidebar__user">
+                <span class="avatar avatar--amber">
+                    DH
+                </span>
+                <span>
+                    <strong>
+                        Diego Herrera
+                    </strong>
+                    <small>
+                        Empleado
+                    </small>
+                </span>
+            </div>
+            <nav class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../cierre-caja/index.html">
+                    ⌑
+                    <span>
+                        Cierre de caja
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page employee-page" id="employee-cash">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Caja
+                        </h1>
+                        <p>
+                            Turno actual
+                        </p>
+                    </div>
+                    <a class="button" href="../cierre-caja/index.html">
+                        Cierre de caja
+                    </a>
+                </header>
+                <div class="page__content">
+                    <div class="cash-open cash-open--banner">
+                        ● Caja actualmente abierta &middot; Turno iniciado a las 07:00 a.m.
+                    </div>
+                    <section class="stats-grid stats-grid--three">
+                        <article class="stat-card">
+                            <p>
+                                Total ingresos
+                            </p>
+                            <strong>
+                                $642,500
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Total egresos
+                            </p>
+                            <strong>
+                                $0
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Saldo actual
+                            </p>
+                            <strong>
+                                $642,500
+                            </strong>
+                        </article>
+                    </section>
+                    <article class="panel">
+                        <h2>
+                            Movimientos del turno
+                        </h2>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Hora
+                                        </th>
+                                        <th>
+                                            Tipo
+                                        </th>
+                                        <th>
+                                            Descripci&oacute;n
+                                        </th>
+                                        <th>
+                                            Ingreso
+                                        </th>
+                                        <th>
+                                            Egreso
+                                        </th>
+                                        <th>
+                                            Saldo
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            07:05
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Ingreso
+                                            </span>
+                                        </td>
+                                        <td>
+                                            Apertura caja
+                                        </td>
+                                        <td>
+                                            $200,000
+                                        </td>
+                                        <td>
+                                            &mdash;
+                                        </td>
+                                        <td>
+                                            $200,000
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            14:32
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Ingreso
+                                            </span>
+                                        </td>
+                                        <td>
+                                            Venta #V-0046
+                                        </td>
+                                        <td>
+                                            $85,000
+                                        </td>
+                                        <td>
+                                            &mdash;
+                                        </td>
+                                        <td>
+                                            $635,500
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

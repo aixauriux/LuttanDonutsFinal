@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="cash">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Caja
+                        </h1>
+                        <p>
+                            Movimientos del d&iacute;a
+                        </p>
+                    </div>
+                    <a class="button" href="../cierre-caja/index.html">
+                        Cierre de caja
+                    </a>
+                </header>
+                <div class="page__content">
+                    <section class="stats-grid stats-grid--three">
+                        <article class="stat-card">
+                            <p>
+                                Total ingresos
+                            </p>
+                            <strong>
+                                $1,842,500
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Total egresos
+                            </p>
+                            <strong>
+                                $380,000
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Saldo actual
+                            </p>
+                            <strong>
+                                $1,462,500
+                            </strong>
+                        </article>
+                    </section>
+                    <article class="panel">
+                        <h2>
+                            Movimientos del d&iacute;a
+                        </h2>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Hora
+                                        </th>
+                                        <th>
+                                            Tipo
+                                        </th>
+                                        <th>
+                                            Descripci&oacute;n
+                                        </th>
+                                        <th>
+                                            Ingreso
+                                        </th>
+                                        <th>
+                                            Egreso
+                                        </th>
+                                        <th>
+                                            Saldo
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            08:05
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Ingreso
+                                            </span>
+                                        </td>
+                                        <td>
+                                            Apertura de caja
+                                        </td>
+                                        <td>
+                                            $200,000
+                                        </td>
+                                        <td>
+                                            &mdash;
+                                        </td>
+                                        <td>
+                                            $200,000
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10:30
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--red">
+                                                Egreso
+                                            </span>
+                                        </td>
+                                        <td>
+                                            Compra harina y az&uacute;car
+                                        </td>
+                                        <td>
+                                            &mdash;
+                                        </td>
+                                        <td>
+                                            $145,000
+                                        </td>
+                                        <td>
+                                            $111,500
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            14:20
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Ingreso
+                                            </span>
+                                        </td>
+                                        <td>
+                                            Ventas #V-0043&ndash;0047
+                                        </td>
+                                        <td>
+                                            $1,434,000
+                                        </td>
+                                        <td>
+                                            &mdash;
+                                        </td>
+                                        <td>
+                                            $1,556,500
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

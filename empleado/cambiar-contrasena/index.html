@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cambiar contraseña | Luttan Donuts</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="login-screen">
+        <article class="login-card"><img class="login-card__logo" src="../../imagenes/luttan.jpeg"
+                alt="Logo Luttan Donuts">
+            <h1 class="brand-title">Luttan Donuts</h1>
+            <h2>Cambiar contraseña</h2>
+            <p class="login-card__subtitle">Escribe y confirma tu nueva contraseña.</p>
+            <form id="form-contrasena" class="form-stack"><label class="field">Nueva contraseña<input type="password"
+                        name="nueva" minlength="4" required></label><label class="field">Confirmar contraseña<input
+                        type="password" name="confirmar" minlength="4" required></label><button
+                    class="button button--gradient" type="submit">Guardar contraseña</button></form>
+            <p id="mensaje-contrasena" role="status" aria-live="polite"></p><a class="text-link"
+                href="../inicio-sesion/index.html">Volver al inicio de sesión</a>
+        </article>
+    </main>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

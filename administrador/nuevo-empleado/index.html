@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="employee-new">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Nuevo Empleado
+                        </h1>
+                        <p>
+                            Datos del empleado
+                        </p>
+                    </div>
+                    <a class="button button--soft" href="../empleados/index.html">
+                        Volver
+                    </a>
+                </header>
+                <div class="page__content">
+                    <article class="panel form-card">
+                        <form action="../empleados/index.html" class="form-stack">
+                            <label class="field">
+                                Nombre completo
+                                <input required="" />
+                            </label>
+                            <label class="field">
+                                Correo electr&oacute;nico
+                                <input required="" type="email" />
+                            </label>
+                            <label class="field">
+                                Tel&eacute;fono
+                                <input type="tel" />
+                            </label>
+                            <label class="field">
+                                Contrase&ntilde;a temporal
+                                <input type="password" />
+                            </label>
+                            <div class="form-grid">
+                                <label class="field">
+                                    Rol
+                                    <select>
+                                        <option>
+                                            Cajera/o
+                                        </option>
+                                        <option>
+                                            Cocinero/a
+                                        </option>
+                                        <option>
+                                            Servicio al cliente
+                                        </option>
+                                        <option>
+                                            Repartidor/a
+                                        </option>
+                                    </select>
+                                </label>
+                                <label class="field">
+                                    Estado
+                                    <select>
+                                        <option>
+                                            Activo
+                                        </option>
+                                        <option>
+                                            Inactivo
+                                        </option>
+                                    </select>
+                                </label>
+                            </div>
+                            <button class="button">
+                                Guardar empleado
+                            </button>
+                        </form>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

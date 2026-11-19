@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="products">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Productos
+                        </h1>
+                        <p>
+                            Cat&aacute;logo interno
+                        </p>
+                    </div>
+                    <a class="button" href="../nuevo-producto/index.html">
+                        Nuevo producto
+                    </a>
+                </header>
+                <div class="page__content">
+                    <form class="filters filters--single">
+                        <input placeholder="Buscar productos..." type="search" />
+                    </form>
+                    <section class="product-grid">
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                🍩
+                            </div>
+                            <div class="product-card__body">
+                                <span class="pill pill--green">
+                                    Activo
+                                </span>
+                                <h2>
+                                    Dona de Fresa
+                                </h2>
+                                <p>
+                                    Cl&aacute;sica
+                                </p>
+                                <strong>
+                                    $4,500
+                                </strong>
+                                <small>
+                                    Stock: 3 unid
+                                </small>
+                                <footer>
+                                    <a class="button button--soft button--small" href="../nuevo-producto/index.html">
+                                        Editar
+                                    </a>
+                                    <button class="button button--danger button--small">
+                                        Desactivar
+                                    </button>
+                                </footer>
+                            </div>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                🍫
+                            </div>
+                            <div class="product-card__body">
+                                <span class="pill pill--green">
+                                    Activo
+                                </span>
+                                <h2>
+                                    Dona de Chocolate
+                                </h2>
+                                <p>
+                                    Cl&aacute;sica
+                                </p>
+                                <strong>
+                                    $4,500
+                                </strong>
+                                <small>
+                                    Stock: 5 unid
+                                </small>
+                                <footer>
+                                    <a class="button button--soft button--small" href="../nuevo-producto/index.html">
+                                        Editar
+                                    </a>
+                                    <button class="button button--danger button--small">
+                                        Desactivar
+                                    </button>
+                                </footer>
+                            </div>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                🍩
+                            </div>
+                            <div class="product-card__body">
+                                <span class="pill pill--green">
+                                    Activo
+                                </span>
+                                <h2>
+                                    Dona Glaseada
+                                </h2>
+                                <p>
+                                    Cl&aacute;sica
+                                </p>
+                                <strong>
+                                    $3,800
+                                </strong>
+                                <small>
+                                    Stock: 24 unid
+                                </small>
+                                <footer>
+                                    <a class="button button--soft button--small" href="../nuevo-producto/index.html">
+                                        Editar
+                                    </a>
+                                    <button class="button button--danger button--small">
+                                        Desactivar
+                                    </button>
+                                </footer>
+                            </div>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                ◉
+                            </div>
+                            <div class="product-card__body">
+                                <span class="pill pill--red">
+                                    Inactivo
+                                </span>
+                                <h2>
+                                    Dona de Ar&aacute;ndano
+                                </h2>
+                                <p>
+                                    Especial
+                                </p>
+                                <strong>
+                                    $5,200
+                                </strong>
+                                <small>
+                                    Stock: 0 unid
+                                </small>
+                                <footer>
+                                    <a class="button button--soft button--small" href="../nuevo-producto/index.html">
+                                        Editar
+                                    </a>
+                                    <button class="button button--success button--small">
+                                        Activar
+                                    </button>
+                                </footer>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

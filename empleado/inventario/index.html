@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell employee-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <div class="sidebar__user">
+                <span class="avatar avatar--amber">
+                    DH
+                </span>
+                <span>
+                    <strong>
+                        Diego Herrera
+                    </strong>
+                    <small>
+                        Empleado
+                    </small>
+                </span>
+            </div>
+            <nav class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../cierre-caja/index.html">
+                    ⌑
+                    <span>
+                        Cierre de caja
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page employee-page" id="employee-inventory">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Inventario
+                        </h1>
+                        <p>
+                            Vista de consulta
+                        </p>
+                    </div>
+                    <span class="pill pill--amber">
+                        Solo lectura
+                    </span>
+                </header>
+                <div class="page__content">
+                    <div class="notice">
+                        Solo la administradora puede modificar el inventario.
+                    </div>
+                    <section class="stats-grid stats-grid--three">
+                        <article class="stat-card">
+                            <p>
+                                Disponible
+                            </p>
+                            <strong>
+                                28 items
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Stock bajo
+                            </p>
+                            <strong>
+                                6 items
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Agotado
+                            </p>
+                            <strong>
+                                2 items
+                            </strong>
+                        </article>
+                    </section>
+                    <article class="panel">
+                        <form class="filters filters--single">
+                            <input placeholder="Buscar producto..." type="search" />
+                        </form>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Producto
+                                        </th>
+                                        <th>
+                                            Categor&iacute;a
+                                        </th>
+                                        <th>
+                                            Stock disponible
+                                        </th>
+                                        <th>
+                                            Stock m&iacute;nimo
+                                        </th>
+                                        <th>
+                                            Estado
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            Dona de Fresa
+                                        </td>
+                                        <td>
+                                            Donas
+                                        </td>
+                                        <td>
+                                            3 unid
+                                        </td>
+                                        <td>
+                                            10 unid
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--amber">
+                                                Stock bajo
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Dona Glaseada
+                                        </td>
+                                        <td>
+                                            Donas
+                                        </td>
+                                        <td>
+                                            24 unid
+                                        </td>
+                                        <td>
+                                            10 unid
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Disponible
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Bolsas kraft
+                                        </td>
+                                        <td>
+                                            Empaque
+                                        </td>
+                                        <td>
+                                            0 unid
+                                        </td>
+                                        <td>
+                                            30 unid
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--red">
+                                                Agotado
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

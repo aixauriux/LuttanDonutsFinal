@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="store-shell">
+        <header class="store-header">
+            <a class="store-brand" href="../inicio/index.html">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <span>
+                    Luttan Donuts
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de la tienda">
+                <a href="../inicio/index.html">
+                    Inicio
+                </a>
+                <a href="../catalogo/index.html">
+                    Cat&aacute;logo
+                </a>
+                <a href="../nosotros/index.html">
+                    Nosotros
+                </a>
+                <a href="../finalizar-compra/index.html">
+                    Mi pedido
+                    <span class="cart-count">
+                        3
+                    </span>
+                </a>
+            </nav>
+            <a class="button button--soft button--small" href="../../administrador/inicio-sesion/index.html">
+                Administraci&oacute;n
+            </a>
+        </header>
+        <main class="store-page" id="store-product">
+            <section class="product-detail">
+                <a class="product-detail__back" href="../catalogo/index.html">
+                    &larr; Volver al cat&aacute;logo
+                </a>
+                <div class="product-detail__gallery">
+                    <img alt="Dona de fresa en detalle"
+                        src="https://images.unsplash.com/photo-1626094309830-abbb0c99da4a?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;q=90&amp;w=1000" />
+                </div>
+                <article class="product-detail__info">
+                    <span class="eyebrow">
+                        Colecci&oacute;n cl&aacute;sica
+                    </span>
+                    <h1>
+                        Dona de Fresa
+                    </h1>
+                    <div class="product-rating">
+                        &starf;&starf;&starf;&starf;&starf;
+                        <span>
+                            4.9 &middot; 128 rese&ntilde;as
+                        </span>
+                    </div>
+                    <strong class="product-price">
+                        $4,500
+                    </strong>
+                    <p>
+                        Una dona suave y esponjosa con glaseado artesanal de fresa, terminada con lluvia de colores.
+                        Preparada fresca cada ma&ntilde;ana.
+                    </p>
+                    <ul>
+                        <li>
+                            Hecha artesanalmente
+                        </li>
+                        <li>
+                            Sin conservantes artificiales
+                        </li>
+                        <li>
+                            Disponible para entrega hoy
+                        </li>
+                    </ul>
+                    <form action="../finalizar-compra/index.html">
+                        <label class="quantity">
+                            Cantidad
+                            <input min="1" type="number" value="1" />
+                        </label>
+                        <button class="button button--store">
+                            Agregar al pedido
+                        </button>
+                    </form>
+                    <small>
+                        Al&eacute;rgenos: contiene gluten, leche y huevo.
+                    </small>
+                </article>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

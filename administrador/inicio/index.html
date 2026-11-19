@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="dashboard">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Panel de Administrador
+                        </h1>
+                        <p>
+                            Viernes, 15 de agosto de 2026
+                        </p>
+                    </div>
+                    <div class="topbar__actions">
+                        <button class="button button--soft">
+                            Hoy: 15 ago 2026
+                        </button>
+                        <a class="icon-button" href="../perfil/index.html">
+                            AS
+                        </a>
+                    </div>
+                </header>
+                <div class="page__content">
+                    <section aria-label="Resumen del d&iacute;a" class="stats-grid">
+                        <article class="stat-card">
+                            <span>
+                                ▣
+                            </span>
+                            <p>
+                                Ventas del d&iacute;a
+                            </p>
+                            <strong>
+                                $1,842,500
+                            </strong>
+                            <small>
+                                +12% vs ayer
+                            </small>
+                        </article>
+                        <article class="stat-card">
+                            <span>
+                                $
+                            </span>
+                            <p>
+                                Gastos del d&iacute;a
+                            </p>
+                            <strong>
+                                $380,000
+                            </strong>
+                            <small>
+                                3 registros
+                            </small>
+                        </article>
+                        <article class="stat-card">
+                            <span>
+                                &nearrow;
+                            </span>
+                            <p>
+                                Ganancias
+                            </p>
+                            <strong>
+                                $1,462,500
+                            </strong>
+                            <small>
+                                Neto del d&iacute;a
+                            </small>
+                        </article>
+                        <article class="stat-card">
+                            <span>
+                                &checkmark;
+                            </span>
+                            <p>
+                                Pedidos realizados
+                            </p>
+                            <strong>
+                                47
+                            </strong>
+                            <small>
+                                Completados hoy
+                            </small>
+                        </article>
+                    </section>
+                    <section class="dashboard-grid">
+                        <article class="panel panel--wide">
+                            <header class="panel__header">
+                                <div>
+                                    <h2>
+                                        Ventas de la semana
+                                    </h2>
+                                    <p>
+                                        Semana actual
+                                    </p>
+                                </div>
+                                <a class="button button--soft button--small" href="../reportes/index.html">
+                                    Ver m&aacute;s
+                                </a>
+                            </header>
+                            <div aria-label="Gr&aacute;fico de ventas" class="bar-chart">
+                                <i style="--h:65%">
+                                </i>
+                                <i style="--h:80%">
+                                </i>
+                                <i style="--h:55%">
+                                </i>
+                                <i style="--h:90%">
+                                </i>
+                                <i class="active" style="--h:100%">
+                                </i>
+                                <i style="--h:75%">
+                                </i>
+                                <i style="--h:45%">
+                                </i>
+                            </div>
+                            <div class="chart-labels">
+                                <span>
+                                    L
+                                </span>
+                                <span>
+                                    M
+                                </span>
+                                <span>
+                                    X
+                                </span>
+                                <span>
+                                    J
+                                </span>
+                                <span>
+                                    V
+                                </span>
+                                <span>
+                                    S
+                                </span>
+                                <span>
+                                    D
+                                </span>
+                            </div>
+                        </article>
+                        <article class="panel">
+                            <h2>
+                                Por tipo de dona
+                            </h2>
+                            <div class="donut-chart">
+                                <span>
+                                    Ventas
+                                    <br />
+                                    <small>
+                                        por tipo
+                                    </small>
+                                </span>
+                            </div>
+                            <ul class="legend">
+                                <li>
+                                    Cl&aacute;sica
+                                    <strong>
+                                        42%
+                                    </strong>
+                                </li>
+                                <li>
+                                    Rellena
+                                    <strong>
+                                        28%
+                                    </strong>
+                                </li>
+                                <li>
+                                    Glaseada
+                                    <strong>
+                                        18%
+                                    </strong>
+                                </li>
+                                <li>
+                                    Especial
+                                    <strong>
+                                        12%
+                                    </strong>
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="panel">
+                            <header class="panel__header">
+                                <h2>
+                                    Pedidos del d&iacute;a
+                                </h2>
+                                <a href="../ventas/index.html">
+                                    Ver todos
+                                </a>
+                            </header>
+                            <ul class="activity-list">
+                                <li>
+                                    <span>
+                                        <b>
+                                            #V-0047
+                                        </b>
+                                        Mar&iacute;a L&oacute;pez
+                                    </span>
+                                    <strong>
+                                        $85,000
+                                        <em class="pill pill--green">
+                                            Completado
+                                        </em>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>
+                                            #V-0046
+                                        </b>
+                                        Carlos Ruiz
+                                    </span>
+                                    <strong>
+                                        $42,000
+                                        <em class="pill pill--amber">
+                                            En proceso
+                                        </em>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>
+                                            #V-0045
+                                        </b>
+                                        Sof&iacute;a Reyes
+                                    </span>
+                                    <strong>
+                                        $128,000
+                                        <em class="pill pill--green">
+                                            Completado
+                                        </em>
+                                    </strong>
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="panel">
+                            <header class="panel__header">
+                                <h2>
+                                    Poco stock
+                                </h2>
+                                <a href="../inventario/index.html">
+                                    Ver inventario
+                                </a>
+                            </header>
+                            <ul class="activity-list">
+                                <li>
+                                    <span>
+                                        <b>
+                                            Dona de Fresa
+                                        </b>
+                                        Cl&aacute;sica
+                                    </span>
+                                    <em class="pill pill--amber">
+                                        3 / m&iacute;n. 10
+                                    </em>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>
+                                            Dona de Chocolate
+                                        </b>
+                                        Cl&aacute;sica
+                                    </span>
+                                    <em class="pill pill--amber">
+                                        5 / m&iacute;n. 10
+                                    </em>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>
+                                            Crema pastelera
+                                        </b>
+                                        Insumo
+                                    </span>
+                                    <em class="pill pill--red">
+                                        0.5 / m&iacute;n. 2
+                                    </em>
+                                </li>
+                            </ul>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

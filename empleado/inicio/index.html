@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell employee-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <div class="sidebar__user">
+                <span class="avatar avatar--amber">
+                    DH
+                </span>
+                <span>
+                    <strong>
+                        Diego Herrera
+                    </strong>
+                    <small>
+                        Empleado
+                    </small>
+                </span>
+            </div>
+            <nav class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../cierre-caja/index.html">
+                    ⌑
+                    <span>
+                        Cierre de caja
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page employee-page" id="employee-dashboard">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Panel de Empleado
+                        </h1>
+                        <p>
+                            Viernes, 15 de agosto de 2026
+                        </p>
+                    </div>
+                    <span class="cash-open">
+                        ● Caja abierta
+                    </span>
+                </header>
+                <div class="page__content">
+                    <div class="flow-strip">
+                        Inicio de sesi&oacute;n &rarr; Panel &rarr; Ventas &rarr; Registrar &rarr; Inventario &rarr;
+                        Caja &rarr; Cierre
+                    </div>
+                    <section class="stats-grid">
+                        <article class="stat-card">
+                            <p>
+                                Ventas realizadas hoy
+                            </p>
+                            <strong>
+                                23 ventas
+                            </strong>
+                            <small>
+                                Registradas en mi turno
+                            </small>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Total recaudado
+                            </p>
+                            <strong>
+                                $642,500
+                            </strong>
+                            <small>
+                                Turno actual
+                            </small>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Estado de la caja
+                            </p>
+                            <strong>
+                                Abierta
+                            </strong>
+                            <small>
+                                Desde las 07:00 a.m.
+                            </small>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Pedidos pendientes
+                            </p>
+                            <strong>
+                                4
+                            </strong>
+                            <small>
+                                Por atender
+                            </small>
+                        </article>
+                    </section>
+                    <section class="dashboard-grid">
+                        <article class="panel">
+                            <header class="panel__header">
+                                <h2>
+                                    Ventas recientes
+                                </h2>
+                                <a href="../ventas/index.html">
+                                    Ver todas
+                                </a>
+                            </header>
+                            <ul class="activity-list">
+                                <li>
+                                    <span>
+                                        <b>
+                                            #V-0047
+                                        </b>
+                                        Mar&iacute;a L&oacute;pez &middot; 14:32
+                                    </span>
+                                    <strong>
+                                        $85,000
+                                    </strong>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>
+                                            #V-0046
+                                        </b>
+                                        Carlos Ruiz &middot; 13:15
+                                    </span>
+                                    <strong>
+                                        $42,000
+                                    </strong>
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="panel">
+                            <header class="panel__header">
+                                <h2>
+                                    Poco stock
+                                </h2>
+                                <a href="../inventario/index.html">
+                                    Ver inventario
+                                </a>
+                            </header>
+                            <ul class="activity-list">
+                                <li>
+                                    <span>
+                                        <b>
+                                            Dona de Fresa
+                                        </b>
+                                        3 / m&iacute;n. 10
+                                    </span>
+                                    <span class="pill pill--amber">
+                                        Stock bajo
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <b>
+                                            Harina premium
+                                        </b>
+                                        1.2 kg / m&iacute;n. 5 kg
+                                    </span>
+                                    <span class="pill pill--amber">
+                                        Stock bajo
+                                    </span>
+                                </li>
+                            </ul>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

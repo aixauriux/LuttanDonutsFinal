@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="customer-profile">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Perfil del Cliente
+                        </h1>
+                        <p>
+                            Detalle e historial
+                        </p>
+                    </div>
+                    <a class="button button--soft" href="../clientes/index.html">
+                        Volver
+                    </a>
+                </header>
+                <div class="page__content profile-grid">
+                    <article class="profile-card">
+                        <span class="profile-card__avatar">
+                            ML
+                        </span>
+                        <h2>
+                            Mar&iacute;a L&oacute;pez
+                        </h2>
+                        <span class="pill pill--green">
+                            Cliente activo
+                        </span>
+                        <dl>
+                            <dt>
+                                Correo
+                            </dt>
+                            <dd>
+                                mlopez@email.com
+                            </dd>
+                            <dt>
+                                Tel&eacute;fono
+                            </dt>
+                            <dd>
+                                300-456-7890
+                            </dd>
+                            <dt>
+                                Registro
+                            </dt>
+                            <dd>
+                                12/03/2025
+                            </dd>
+                        </dl>
+                        <div class="profile-card__stats">
+                            <span>
+                                <strong>
+                                    18
+                                </strong>
+                                Pedidos
+                            </span>
+                            <span>
+                                <strong>
+                                    $820K
+                                </strong>
+                                Total
+                            </span>
+                        </div>
+                    </article>
+                    <article class="panel">
+                        <h2>
+                            Historial de pedidos
+                        </h2>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            N&deg; Pedido
+                                        </th>
+                                        <th>
+                                            Fecha
+                                        </th>
+                                        <th>
+                                            Productos
+                                        </th>
+                                        <th>
+                                            Total
+                                        </th>
+                                        <th>
+                                            Estado
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            #V-0047
+                                        </td>
+                                        <td>
+                                            15/08/2026
+                                        </td>
+                                        <td>
+                                            Dona Fresa &times;3, Glaseada &times;2
+                                        </td>
+                                        <td>
+                                            $85,000
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Completado
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            #V-0039
+                                        </td>
+                                        <td>
+                                            08/08/2026
+                                        </td>
+                                        <td>
+                                            Caja x6 surtida
+                                        </td>
+                                        <td>
+                                            $126,000
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Completado
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

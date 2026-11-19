@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+      <meta charset="utf-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <title>
+            Luttan Donuts
+      </title>
+      <link href="estilos.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+            rel="stylesheet" />
+</head>
+
+<body>
+      <main class="login-screen full-page" id="employee-login">
+            <article class="login-card">
+                  <img alt="Logotipo de Luttan Donuts" class="login-card__logo" src="../../imagenes/luttan.jpeg" />
+                  <h1 class="brand-title">
+                        Luttan Donuts
+                  </h1>
+                  <span class="pill pill--amber">
+                        Empleado
+                  </span>
+                  <p class="login-card__subtitle">
+                        Acceso para colaboradores de tienda
+                  </p>
+                  <h2>
+                        Inicio de sesión
+                  </h2>
+                  <form action="../inicio/index.html" class="form-stack">
+                        <label class="field">
+                              Correo electrónico
+                              <input placeholder="empleado@luttandonuts.com" required="" type="email" />
+                        </label>
+                        <label class="field">
+                              Contraseña
+                              <input placeholder="••••••••" required="" type="password" />
+                        </label>
+                        <button class="button button--gradient" type="submit">
+                              Iniciar sesión
+                        </button>
+                  </form><a class="text-link" href="../cambiar-contrasena/index.html">Cambiar contraseña</a>
+                  <footer class="role-switcher">
+                        <small>
+                              ¿Ingresar con otro rol?
+                        </small>
+                        <nav>
+                              <a class="button button--soft button--small"
+                                    href="../../administrador/inicio-sesion/index.html">
+                                    Administradora
+                              </a>
+                              <a class="button button--small" href="../inicio-sesion/index.html">
+                                    Empleado
+                              </a>
+                              <a class="button button--soft button--small" href="../../cliente/inicio/index.html">
+                                    Tienda
+                              </a>
+                        </nav>
+                  </footer>
+            </article>
+      </main>
+      <script defer="" src="../../funciones.js"></script>
+</body>
+
+</html>

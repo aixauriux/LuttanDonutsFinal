@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="store-shell">
+        <header class="store-header">
+            <a class="store-brand" href="../inicio/index.html">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <span>
+                    Luttan Donuts
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de la tienda">
+                <a href="../inicio/index.html">
+                    Inicio
+                </a>
+                <a href="../catalogo/index.html">
+                    Cat&aacute;logo
+                </a>
+                <a href="../nosotros/index.html">
+                    Nosotros
+                </a>
+                <a href="../finalizar-compra/index.html">
+                    Mi pedido
+                    <span class="cart-count">
+                        3
+                    </span>
+                </a>
+            </nav>
+            <a class="button button--soft button--small" href="../../administrador/inicio-sesion/index.html">
+                Administraci&oacute;n
+            </a>
+        </header>
+        <main class="store-page" id="store-checkout">
+            <header class="catalog-hero catalog-hero--compact">
+                <span class="eyebrow">
+                    Finaliza tu compra
+                </span>
+                <h1>
+                    Tu pedido
+                </h1>
+            </header>
+            <section class="checkout-layout">
+                <form action="../inicio/index.html" class="checkout-form">
+                    <article class="panel">
+                        <h2>
+                            1. Datos de entrega
+                        </h2>
+                        <div class="form-grid">
+                            <label class="field">
+                                Nombre completo
+                                <input required="" />
+                            </label>
+                            <label class="field">
+                                Tel&eacute;fono
+                                <input required="" type="tel" />
+                            </label>
+                        </div>
+                        <label class="field">
+                            Direcci&oacute;n
+                            <input required="" />
+                        </label>
+                        <label class="field">
+                            Indicaciones
+                            <textarea placeholder="Apartamento, barrio o referencia"></textarea>
+                        </label>
+                    </article>
+                    <article class="panel">
+                        <h2>
+                            2. M&eacute;todo de pago
+                        </h2>
+                        <div class="checkout-payment">
+                            <label>
+                                <input checked="" name="store-payment" type="radio" />
+                                Pago contra entrega
+                            </label>
+                            <label>
+                                <input name="store-payment" type="radio" />
+                                Transferencia
+                            </label>
+                            <label>
+                                <input name="store-payment" type="radio" />
+                                Tarjeta
+                            </label>
+                        </div>
+                    </article>
+                    <button class="button button--store button--checkout" type="submit">
+                        Confirmar pedido &middot; $38,500
+                    </button>
+                </form>
+                <aside class="order-summary panel">
+                    <h2>
+                        Resumen
+                    </h2>
+                    <ul>
+                        <li>
+                            <img alt=""
+                                src="https://images.unsplash.com/photo-1626094309830-abbb0c99da4a?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;q=80&amp;w=160" />
+                            <span>
+                                <strong>
+                                    Dona de Fresa
+                                </strong>
+                                <small>
+                                    2 &times; $4,500
+                                </small>
+                            </span>
+                            <b>
+                                $9,000
+                            </b>
+                        </li>
+                        <li>
+                            <img alt=""
+                                src="https://images.unsplash.com/photo-1514517521153-1be72277b32f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;q=80&amp;w=160" />
+                            <span>
+                                <strong>
+                                    Caja Surtida x6
+                                </strong>
+                                <small>
+                                    1 &times; $26,000
+                                </small>
+                            </span>
+                            <b>
+                                $26,000
+                            </b>
+                        </li>
+                    </ul>
+                    <dl>
+                        <dt>
+                            Subtotal
+                        </dt>
+                        <dd>
+                            $35,000
+                        </dd>
+                        <dt>
+                            Env&iacute;o
+                        </dt>
+                        <dd>
+                            $3,500
+                        </dd>
+                        <dt class="order-total">
+                            Total
+                        </dt>
+                        <dd class="order-total">
+                            $38,500
+                        </dd>
+                    </dl>
+                    <a href="../catalogo/index.html">
+                        &larr; Seguir comprando
+                    </a>
+                </aside>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

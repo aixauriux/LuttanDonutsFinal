@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="reports">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Reportes
+                        </h1>
+                        <p>
+                            An&aacute;lisis del negocio
+                        </p>
+                    </div>
+                    <a class="icon-button" href="../perfil/index.html">
+                        AS
+                    </a>
+                </header>
+                <div class="page__content">
+                    <form class="panel filters">
+                        <label class="field">
+                            Desde
+                            <input type="date" />
+                        </label>
+                        <label class="field">
+                            Hasta
+                            <input type="date" />
+                        </label>
+                        <button class="button">
+                            Ver reporte
+                        </button>
+                        <button class="button button--soft">
+                            Exportar CSV
+                        </button>
+                    </form>
+                    <section class="stats-grid">
+                        <article class="stat-card">
+                            <p>
+                                Total ventas
+                            </p>
+                            <strong>
+                                $38,540,000
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Total gastos
+                            </p>
+                            <strong>
+                                $14,820,000
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Ganancias
+                            </p>
+                            <strong>
+                                $23,720,000
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Productos vendidos
+                            </p>
+                            <strong>
+                                2,840
+                            </strong>
+                        </article>
+                    </section>
+                    <section class="dashboard-grid">
+                        <article class="panel">
+                            <h2>
+                                Ventas del mes
+                            </h2>
+                            <div class="bar-chart">
+                                <i style="--h:55%">
+                                </i>
+                                <i style="--h:72%">
+                                </i>
+                                <i style="--h:88%">
+                                </i>
+                                <i class="active" style="--h:100%">
+                                </i>
+                            </div>
+                        </article>
+                        <article class="panel">
+                            <h2>
+                                Productos m&aacute;s vendidos
+                            </h2>
+                            <ul class="ranking">
+                                <li>
+                                    <span>
+                                        Dona Glaseada
+                                    </span>
+                                    <i style="--w:100%">
+                                    </i>
+                                    <strong>
+                                        210 unid
+                                    </strong>
+                                </li>
+                                <li>
+                                    <span>
+                                        Dona de Fresa
+                                    </span>
+                                    <i style="--w:83%">
+                                    </i>
+                                    <strong>
+                                        175 unid
+                                    </strong>
+                                </li>
+                                <li>
+                                    <span>
+                                        Dona de Chocolate
+                                    </span>
+                                    <i style="--w:70%">
+                                    </i>
+                                    <strong>
+                                        148 unid
+                                    </strong>
+                                </li>
+                            </ul>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

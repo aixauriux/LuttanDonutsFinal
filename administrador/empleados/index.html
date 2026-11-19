@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell admin-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <a class="sidebar__user" href="../perfil/index.html">
+                <span class="avatar">
+                    AS
+                </span>
+                <span>
+                    <strong>
+                        Aixa Sanchez
+                    </strong>
+                    <small>
+                        Administradora
+                    </small>
+                </span>
+            </a>
+            <nav aria-label="Navegaci&oacute;n de administraci&oacute;n" class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../productos/index.html">
+                    ◉
+                    <span>
+                        Productos
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../empleados/index.html">
+                    ♟
+                    <span>
+                        Empleados
+                    </span>
+                </a>
+                <a href="../gastos/index.html">
+                    $
+                    <span>
+                        Gastos
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../reportes/index.html">
+                    ▥
+                    <span>
+                        Reportes
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page admin-page" id="employees">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Empleados
+                        </h1>
+                        <p>
+                            Equipo de Luttan Donuts
+                        </p>
+                    </div>
+                    <a class="button" href="../nuevo-empleado/index.html">
+                        Nuevo empleado
+                    </a>
+                </header>
+                <div class="page__content">
+                    <section class="stats-grid stats-grid--three">
+                        <article class="stat-card">
+                            <p>
+                                Total empleados
+                            </p>
+                            <strong>
+                                12
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Activos
+                            </p>
+                            <strong>
+                                10
+                            </strong>
+                        </article>
+                        <article class="stat-card">
+                            <p>
+                                Inactivos
+                            </p>
+                            <strong>
+                                2
+                            </strong>
+                        </article>
+                    </section>
+                    <article class="panel">
+                        <form class="filters filters--single">
+                            <input placeholder="Buscar empleado..." type="search" />
+                        </form>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Nombre
+                                        </th>
+                                        <th>
+                                            Correo
+                                        </th>
+                                        <th>
+                                            Cargo
+                                        </th>
+                                        <th>
+                                            Fecha registro
+                                        </th>
+                                        <th>
+                                            Estado
+                                        </th>
+                                        <th>
+                                            Acciones
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            Adriana Lucia
+                                        </td>
+                                        <td>
+                                            alucia@luttan.com
+                                        </td>
+                                        <td>
+                                            Cajera
+                                        </td>
+                                        <td>
+                                            15/01/2025
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Activo
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="table-link" href="../nuevo-empleado/index.html">
+                                                Editar
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Diego Herrera
+                                        </td>
+                                        <td>
+                                            dherrera@luttan.com
+                                        </td>
+                                        <td>
+                                            Cocinero
+                                        </td>
+                                        <td>
+                                            20/02/2025
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Activo
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="table-link" href="../nuevo-empleado/index.html">
+                                                Editar
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>

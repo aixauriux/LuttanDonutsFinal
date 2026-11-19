@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luttan Donuts
+    </title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Nunito:wght@400;600;700;800;900&amp;family=Pacifico&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-shell employee-shell">
+        <aside class="sidebar">
+            <header class="sidebar__brand">
+                <img alt="" src="../../imagenes/luttan.jpeg" />
+                <div>
+                    <strong>
+                        Luttan
+                    </strong>
+                    <span>
+                        Donuts
+                    </span>
+                </div>
+            </header>
+            <div class="sidebar__user">
+                <span class="avatar avatar--amber">
+                    DH
+                </span>
+                <span>
+                    <strong>
+                        Diego Herrera
+                    </strong>
+                    <small>
+                        Empleado
+                    </small>
+                </span>
+            </div>
+            <nav class="sidebar__nav">
+                <a href="../inicio/index.html">
+                    ⌂
+                    <span>
+                        Inicio
+                    </span>
+                </a>
+                <a href="../ventas/index.html">
+                    ▣
+                    <span>
+                        Ventas
+                    </span>
+                </a>
+                <a href="../inventario/index.html">
+                    &square;
+                    <span>
+                        Inventario
+                    </span>
+                </a>
+                <a href="../clientes/index.html">
+                    ♙
+                    <span>
+                        Clientes
+                    </span>
+                </a>
+                <a href="../caja/index.html">
+                    ▤
+                    <span>
+                        Caja
+                    </span>
+                </a>
+                <a href="../cierre-caja/index.html">
+                    ⌑
+                    <span>
+                        Cierre de caja
+                    </span>
+                </a>
+            </nav>
+            <a class="sidebar__logout" href="../inicio-sesion/index.html">
+                ⌑ Cerrar sesi&oacute;n
+            </a>
+        </aside>
+        <main class="workspace">
+            <section class="page employee-page" id="employee-customer-profile">
+                <header class="topbar">
+                    <div>
+                        <h1>
+                            Perfil del Cliente
+                        </h1>
+                        <p>
+                            Historial de compras
+                        </p>
+                    </div>
+                    <a class="button button--soft" href="../clientes/index.html">
+                        Volver
+                    </a>
+                </header>
+                <div class="page__content profile-grid">
+                    <article class="profile-card">
+                        <span class="profile-card__avatar">
+                            ML
+                        </span>
+                        <h2>
+                            Mar&iacute;a L&oacute;pez
+                        </h2>
+                        <span class="pill pill--green">
+                            Cliente activo
+                        </span>
+                        <dl>
+                            <dt>
+                                Correo
+                            </dt>
+                            <dd>
+                                mlopez@email.com
+                            </dd>
+                            <dt>
+                                Tel&eacute;fono
+                            </dt>
+                            <dd>
+                                300-456-7890
+                            </dd>
+                        </dl>
+                    </article>
+                    <article class="panel">
+                        <h2>
+                            Historial de pedidos
+                        </h2>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            N&deg; Pedido
+                                        </th>
+                                        <th>
+                                            Fecha
+                                        </th>
+                                        <th>
+                                            Productos
+                                        </th>
+                                        <th>
+                                            Total
+                                        </th>
+                                        <th>
+                                            Estado
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            #V-0047
+                                        </td>
+                                        <td>
+                                            15/08/2026
+                                        </td>
+                                        <td>
+                                            Dona Fresa &times;3
+                                        </td>
+                                        <td>
+                                            $85,000
+                                        </td>
+                                        <td>
+                                            <span class="pill pill--green">
+                                                Completado
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../../funciones.js" defer></script>
+</body>
+
+</html>
